@@ -26,7 +26,7 @@ def get_api_url_param_method(platform_type, api_name, api='api'):
 def json_read(json_file):
     """
     json文件读取
-    :param json_file: json文件路径
+    :param json_file: json文件路径1
     :return: json数据
     """
     open_file = os.path.join(os.path.dirname(os.path.dirname(__file__)) + json_file)
