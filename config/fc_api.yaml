@@ -1,0 +1,22 @@
+FC:
+  host: 'https://ee-test.leqee.com/ee'
+
+  # 登录
+  fc_login:
+    method: post
+    api: '/web/verify/login?service=freechess-manage'
+
+  # 退出登录
+  fc_logout:
+    method: get
+    api: '/web/verify/logout'
+
+  # 应用列表
+  fc_app_list:
+    method: post
+    api: '/proxy/auto-manage/web/app/list/get'
+
+  # 消息列表
+  fc_notice_list:
+    method: get
+    api: '/proxy/auto-manage/web/user/system/notice/list'

@@ -1,0 +1,6 @@
+[2023-08-03 13:52:14,330]-logs.py]-ERROR:读取yaml文件报错'ReadFile' object has no attribute 'fc_yaml_path'
+[2023-08-03 13:59:32,399]-logs.py]-ERROR:读取yaml文件报错'ReadFile' object has no attribute 'fc_yaml_path'
+[2023-08-03 14:05:35,614]-logs.py]-ERROR:读取yaml文件报错'ReadFile' object has no attribute 'fc_yaml_path'
+[2023-08-03 14:06:30,814]-logs.py]-ERROR:读取yaml文件报错[Errno 2] No such file or directory: 'D:/config/fc_api.yaml'
+[2023-08-03 14:50:57,480]-logs.py]-ERROR:读取yaml文件报错__init__() got an unexpected keyword argument 'Loader'
+[2023-08-03 14:55:09,488]-logs.py]-ERROR:读取yaml文件报错load() missing 1 required positional argument: 'Loader'

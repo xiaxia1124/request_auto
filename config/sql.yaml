@@ -1,0 +1,37 @@
+项目一:
+  查id:
+    - select_list
+    - select id from A.B where create_mobile={}
+  查用户id:
+    - select_list
+    - select id from A.B where mobile={}
+  查团队id:
+    - select_list
+    - select id from A.B where company_user_id=(select id from A.B where mobile={})
+  查C端用户id:
+    - select_list
+    - select user_id from A.B where mobile in({})
+  解除用户:
+    - update
+    - update A.B set status=2 where mobile={}
+
+---
+项目二:
+  查id:
+    - select_list
+    - select id from A.B where create_mobile={}
+  查用户id:
+    - select_list
+    - select id from A.B where mobile={}
+...
+---
+  查团队id:
+    - select_list
+    - select id from A.B where company_user_id=(select id from A.B where mobile={})
+  查C端用户id:
+    - select_list
+    - select user_id from A.B where mobile in({})
+  解除用户:
+    - update
+    - update A.B set status=2 where mobile={}
+...
